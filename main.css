@@ -1,0 +1,24 @@
+/*this apply to desktop by default */
+
+.column {
+ float: left;
+ height: 50px;
+ width: 30%;
+ background-color: #e84610;
+ margin: 10px;
+}
+
+@media (max-width: 991px) {
+    .column {
+    background-color: blue;
+    margin: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .column {
+        background-color: black;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
